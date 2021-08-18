@@ -7,6 +7,19 @@ public class Product {
 	private double productRating;
 	private int productCategoryId;
 
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Product(String productName, double productPrice, double productRating, int productCategoryId) {
+		super();
+		this.productName = productName;
+		this.productPrice = productPrice;
+		this.productRating = productRating;
+		this.productCategoryId = productCategoryId;
+	}
+
 	public int getProductId() {
 		return productId;
 	}
@@ -52,15 +65,5 @@ public class Product {
 		return "Product [productId=" + productId + ", productName=" + productName + ", productPrice=" + productPrice
 				+ ", productRating=" + productRating + ", productCategoryId=" + productCategoryId + "]";
 	}
-
-	public Product(String productName, double productPrice, double productRating, int productCategoryId) {
-		super();
-		this.productName = productName;
-		this.productPrice = productPrice;
-		this.productRating = productRating;
-		this.productCategoryId = productCategoryId;
-	}
-
-	
 
 }

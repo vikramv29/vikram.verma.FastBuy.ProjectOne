@@ -23,7 +23,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
 		boolean login = false;
 		try (Connection connection = MySqlConnection.getConnection()) {
-			String sql = "select customerUsername,customerPassword from customer where customerUsername=? and customerPassword = ?";
+			String sql = "select username,password from customer_details where username=? and password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
