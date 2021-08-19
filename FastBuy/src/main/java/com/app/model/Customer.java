@@ -1,70 +1,77 @@
 package com.app.model;
 
 public class Customer {
-	private int id;
-	private String username;
-	private String password;
-	private String first_name;
-	private String last_name;
 
-	public int getId() {
-		return id;
+	private int customerId;
+	private String customerName;
+	private String customerUsername;
+	private String customerPassword;
+	private String customerEmail;
+
+	public int getCustomerId() {
+		return customerId;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
 	}
 
-	public String getFirst_name() {
-		return first_name;
+	public String getCustomerName() {
+		return customerName;
 	}
 
-	public void setFirst_name(String first_name) {
-		this.first_name = first_name;
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
 	}
 
-	public String getLast_name() {
-		return last_name;
+	public String getCustomerUsername() {
+		return customerUsername;
 	}
 
-	public void setLast_name(String last_name) {
-		this.last_name = last_name;
+	public void setCustomerUsername(String customerUsername) {
+		this.customerUsername = customerUsername;
+	}
+	
+	public String getCustomerPassword() {
+		return customerPassword;
 	}
 
-	public String getUsername() {
-		return username;
+	public void setCustomerPassword(String customerPassword) {
+		this.customerPassword = customerPassword;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
+	public String getCustomerEmail() {
+		return customerEmail;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public Customer() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public Customer(int id, String username, String password, String first_name, String last_name) {
-		super();
-		this.id = id;
-		this.username = username;
-		this.password = password;
-		this.first_name = first_name;
-		this.last_name = last_name;
+	public void setCustomerEmail(String customerEmail) {
+		this.customerEmail = customerEmail;
 	}
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", username=" + username + ", password=" + password + ", first_name=" + first_name
-				+ ", last_name=" + last_name + "]";
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerUsername="
+				+ customerUsername + ", customerEmail=" + customerEmail
+				+ "]";
+	}
+
+	
+	public Customer(String customerName, String customerUsername, String customerEmail) {
+		super();
+		this.customerName = customerName;
+		this.customerUsername = customerUsername;
+		this.customerEmail = customerEmail;
+	}
+	
+	public Customer(String customerName, String customerUsername, String customerPassword,
+			String customerEmail) {
+		this(customerName, customerUsername, customerEmail);
+		this.customerEmail = customerEmail;
+		this.customerPassword= customerPassword ;
+	}
+
+	public Customer() {
+		
 	}
 
 }

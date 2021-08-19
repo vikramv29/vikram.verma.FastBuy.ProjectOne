@@ -37,7 +37,7 @@ public class CartDAOImpl implements CartDAO {
 
 		try (Connection connection = MySqlConnection.getConnection()) {
 
-			String sql = "select cu_id,pro_id,pro_name,pro_price from cart join product on ca_pr_id = pro_id join customer on ca_cu_id = cu_id where cu_id=?";
+			String sql = "select pro_id,pro_name,pro_price from cart join product on ca_pr_id=pro_id join customer_details on ca_cu_id= cu_id where cu_id=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customerId);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -56,6 +56,20 @@ public class CartDAOImpl implements CartDAO {
 			throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
 		}
 		return cartList;
+	}
+	@Override
+	public int deleteProductInCart(int customerId) throws BusinessException {
+		int c = 0;
+		try (Connection connection = MySqlConnection.getConnection()) {
+			String sql = "delete from cart where ca_cu_id=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1,customerId);
+			c = preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException(e.getMessage()+ " Internal Problem Occured. Contact sysAdmin!");
+		}
+		return c;
 	}
 
 }

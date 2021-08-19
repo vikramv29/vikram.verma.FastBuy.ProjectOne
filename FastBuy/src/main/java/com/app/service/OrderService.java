@@ -6,7 +6,9 @@ import com.app.Exception.BusinessException;
 import com.app.model.Order;
 
 public interface OrderService {
-	public int createOrder(int customerId,int productId,double price) throws BusinessException;
-	
+	public int createOrder(int customerId, int productId, double price) throws BusinessException;
+
 	public List<Order> getOrderList(int customerId) throws BusinessException;
+
+	public int updateOrderStatus(int orderId, String status) throws BusinessException;
 }

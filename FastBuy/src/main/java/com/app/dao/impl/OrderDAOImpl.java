@@ -42,12 +42,13 @@ public class OrderDAOImpl implements OrderDAO{
 		List<Order> orderList = new ArrayList<>();
 		
 		try (Connection connection = MySqlConnection.getConnection()) {
-			String sql = "select pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer on or_cu_id= cu_id where cu_id=?";
+			String sql = "select or_id,pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer_details on or_cu_id= cu_id where cu_id=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customerId);
 			ResultSet resultSet = preparedStatement.executeQuery();			
 			while(resultSet.next()) {
 				Order order = new Order();
+				order.setOrderId(resultSet.getInt("or_id"));
 				order.setProductId(resultSet.getInt("pro_id"));
 				order.setProductName(resultSet.getString("pro_name"));
 				order.setPrice(resultSet.getDouble("pro_price"));
@@ -55,12 +56,32 @@ public class OrderDAOImpl implements OrderDAO{
 				orderList.add(order);
 			}
 			if(orderList.size()<1) {
-				throw new BusinessException("You have no orders.");
+				throw new BusinessException("You have no orders");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException(e.getMessage()+" Internal Problem Occured. Contact sysAdmin!");
 		}
 		return orderList;
+	}
+	@Override
+	public int updateOrderStatus(int orderId,String status) throws BusinessException {
+		int c = 0;
+		try (Connection connection = MySqlConnection.getConnection()) {
+
+			String sql = "update orders set or_status = ? where or_id =?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			
+			preparedStatement.setString(1, status);
+			preparedStatement.setInt(2, orderId);
+			
+			c = preparedStatement.executeUpdate();
+
+		} catch (ClassNotFoundException | SQLException e) {
+
+			throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
+		}
+		return c;
+
 	}
 
 }

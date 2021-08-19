@@ -5,7 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+import java.util.ArrayList;
+import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.app.Main;
@@ -21,7 +22,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	public Customer checkValidCredentials(String username, String password) throws BusinessException {
 		Customer customer = null;
 		try (Connection connection = MySqlConnection.getConnection()) {
-			String sql = "select id,first_name,last_name,username,password from customer_details where username=? and password = ?";
+			String sql = "select cu_id,cu_name,cu_username,cu_password,cu_email from customer_details where cu_username=? and cu_password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
@@ -29,11 +30,11 @@ public class CustomerDAOImpl implements CustomerDAO {
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if (resultSet.next()) {
 				customer = new Customer();
-				customer.setId(resultSet.getInt("id"));
-				customer.setFirst_name(resultSet.getString("first_name"));
-				customer.setLast_name(resultSet.getString("last_name"));
-				customer.setUsername(resultSet.getString("username"));
-				customer.setPassword(resultSet.getString("password"));
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerPassword(resultSet.getString("cu_password"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
 			} else {
 				throw new BusinessException("Credentials not matched with our Database!");
 			}
@@ -49,13 +50,13 @@ public class CustomerDAOImpl implements CustomerDAO {
 		int c = 0;
 		try (Connection connection = MySqlConnection.getConnection()) {
 
-			String sql = "insert into customer_details(first_name,last_name,username,password) values(?,?,?,?)";
+			String sql = "insert into customer_details(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
 
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-			preparedStatement.setString(1, customer.getFirst_name());
-			preparedStatement.setString(2, customer.getLast_name());
-			preparedStatement.setString(3, customer.getUsername());
-			preparedStatement.setString(4, customer.getPassword());
+			preparedStatement.setString(1, customer.getCustomerName());
+			preparedStatement.setString(2, customer.getCustomerUsername());
+			preparedStatement.setString(3, customer.getCustomerPassword());
+			preparedStatement.setString(4, customer.getCustomerEmail());
 
 			c = preparedStatement.executeUpdate();
 
@@ -64,6 +65,109 @@ public class CustomerDAOImpl implements CustomerDAO {
 			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
 		}
 		return c;
+	}
+	@Override
+	public Customer getCustomerByCustomerId(int customerId) throws BusinessException {
+		Customer customer = null;
+		try (Connection connection = MySqlConnection.getConnection()) {
+			String sql = "select cu_id,cu_name,cu_username,cu_email from customer_details where cu_id=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, customerId);
+	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				customer = new Customer();
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
+			} else {
+				throw new BusinessException("Customer Id is not matched in our Database!");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+		}
+		return customer;
+	}
+
+	@Override
+	public List<Customer> getCustomerByName(String customerName) throws BusinessException {
+		List<Customer> customerList = new ArrayList<>();
+		
+		try (Connection connection = MySqlConnection.getConnection()) {
+			String sql = "select cu_id,cu_name,cu_username,cu_email from customer_details where cu_name=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customerName);
+	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				Customer customer = new Customer();
+				
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
+				
+				customerList.add(customer);
+			} else {
+				throw new BusinessException("Customer Name is not matched in our Database!");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+		}
+		return customerList;
+	}
+
+	@Override
+	public Customer getCustomerByEmail(String customerEmail) throws BusinessException {
+		Customer customer = null;
+		try (Connection connection = MySqlConnection.getConnection()) {
+			String sql = "select cu_id,cu_name,cu_username,cu_email from customer_details where cu_email=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customerEmail);
+	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				customer = new Customer();
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
+			} else {
+				throw new BusinessException("Customer Email-Id is not matched in our Database!");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+		}
+		return customer;
+	}
+
+	@Override
+	public Customer getCustomerByOrderId(int orderId) throws BusinessException {
+		Customer customer = null;
+		try (Connection connection = MySqlConnection.getConnection()) {
+			String sql = "select cu_id,cu_name,cu_username,cu_email from orders join customer_details on or_cu_id = cu_id where or_id=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, orderId);
+	
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				customer = new Customer();
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
+			} else {
+				throw new BusinessException("Order-Id is not matched in our Database!");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e.getMessage());
+			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+		}
+		return customer;
 	}
 
 }
