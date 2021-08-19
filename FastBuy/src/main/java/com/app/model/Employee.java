@@ -1,8 +1,17 @@
 package com.app.model;
 
 public class Employee {
+	private int id;
 	private String username;
 	private String password;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public String getUsername() {
 		return username;
@@ -25,15 +34,16 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(String username, String password, String name) {
+	public Employee(int id, String username, String password) {
 		super();
+		this.id = id;
 		this.username = username;
 		this.password = password;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [username=" + username + ", password=" + password + "]";
+		return "Employee [id=" + id + ", username=" + username + ", password=" + password + "]";
 	}
 
 }

@@ -1,10 +1,19 @@
 package com.app.model;
 
 public class Customer {
+	private int id;
 	private String username;
 	private String password;
 	private String first_name;
 	private String last_name;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public String getFirst_name() {
 		return first_name;
@@ -43,8 +52,9 @@ public class Customer {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Customer(String username, String password, String first_name, String last_name) {
+	public Customer(int id, String username, String password, String first_name, String last_name) {
 		super();
+		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.first_name = first_name;
@@ -53,7 +63,8 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [username=" + username + ", password=" + password + ", first_name=" + first_name
+		return "Customer [id=" + id + ", username=" + username + ", password=" + password + ", first_name=" + first_name
 				+ ", last_name=" + last_name + "]";
 	}
+
 }

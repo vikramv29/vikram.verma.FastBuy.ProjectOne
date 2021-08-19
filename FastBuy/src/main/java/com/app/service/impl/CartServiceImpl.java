@@ -1,14 +1,29 @@
 package com.app.service.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.app.Exception.BusinessException;
+import com.app.dao.CartDAO;
+import com.app.dao.impl.CartDAOImpl;
+import com.app.model.Cart;
 import com.app.service.CartService;
 
-public class CartServiceImpl implements CartService {
+public class CartServiceImpl implements CartService{
+	CartDAO cartDAO = new CartDAOImpl();
+	
+	@Override
+	public int addProductInCart(int productId,int customerId) throws BusinessException {
+		int c = cartDAO.addProductInCart(productId,customerId);
+		return c;
+	}
 
 	@Override
-	public int addProductInCart(int productId) throws BusinessException {
-
-		return 0;
+	public List<Cart> getProductFromCart(int customerId) throws BusinessException {
+		List<Cart> cart = new ArrayList<>();
+		cart = cartDAO.getProductFromCart(customerId);
+		return cart;
 	}
+	
 
 }

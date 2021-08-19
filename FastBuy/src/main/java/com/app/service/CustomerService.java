@@ -4,7 +4,7 @@ import com.app.Exception.BusinessException;
 import com.app.model.Customer;
 
 public interface CustomerService {
-	public Boolean checkValidCredentials(String username, String password) throws BusinessException;
+	public Customer checkValidCredentials(String username, String password) throws BusinessException;
 
 	public int createAccount(Customer customer) throws BusinessException;
 
