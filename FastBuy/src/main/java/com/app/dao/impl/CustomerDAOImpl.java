@@ -4,9 +4,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.log4j.Logger;
 
 import com.app.Main;
@@ -36,7 +36,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 				customer.setCustomerPassword(resultSet.getString("cu_password"));
 				customer.setCustomerEmail(resultSet.getString("cu_email"));
 			} else {
-				throw new BusinessException("Credentials not matched with our Database!");
+				throw new BusinessException("Credentials is not matched with our Database!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.warn(e.getMessage());
@@ -51,8 +51,8 @@ public class CustomerDAOImpl implements CustomerDAO {
 		try (Connection connection = MySqlConnection.getConnection()) {
 
 			String sql = "insert into customer_details(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
-
-			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, customer.getCustomerName());
 			preparedStatement.setString(2, customer.getCustomerUsername());
 			preparedStatement.setString(3, customer.getCustomerPassword());
@@ -66,6 +66,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 		return c;
 	}
+
 	@Override
 	public Customer getCustomerByCustomerId(int customerId) throws BusinessException {
 		Customer customer = null;

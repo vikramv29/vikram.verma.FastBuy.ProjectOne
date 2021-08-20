@@ -778,3 +778,779 @@ Total Price is 25000.0
 [main] 2021-08-20 11:00:02 INFO  com.app.Main  - 2) Customer
 [main] 2021-08-20 11:00:02 INFO  com.app.Main  - 3) Exit
 [main] 2021-08-20 11:00:02 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - Welcome To FastBuy Online Shopping App!
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - ***************************************
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - Confirm your identity-
+
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 11:50:34 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:50:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:50:39 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 11:50:39 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 11:50:39 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 11:50:44 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-20 11:50:44 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 11:50:44 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 11:50:44 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 11:50:44 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:50:49 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:50:49 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 11:50:49 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 11:50:49 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 11:50:51 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 11:50:57 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - Welcome vik29,What you wanna do today?
+
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:51:05 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:51:24 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-20 11:51:33 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-20 11:51:38 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-20 11:51:41 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:51:47 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:52:04 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-20 11:52:12 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-20 11:52:16 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-20 11:52:20 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:52:23 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:52:25 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-20 11:52:30 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-20 11:52:40 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-20 11:52:44 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:52:46 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 
+
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:52:50 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:53:15 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:53:21 INFO  com.app.Main  - Enter Product Name to find your Product-->
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:53:28 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:53:38 INFO  com.app.Main  - Enter Product Category to find your Product-->
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:53:47 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:54:03 INFO  com.app.Main  - Enter Product Category to find your Product-->
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:54:05 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:55:31 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer by various filters from below menu--->)
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-20 11:55:39 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:55:46 INFO  com.app.Main  - Enter Customer Name to find Customer-->
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - Customer [customerId=1, customerName=vikram, customerUsername=vik29, customerEmail=vikram@gmail.com]
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer by various filters from below menu--->)
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-20 11:55:51 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - *********** Going to previous menu *******************
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:56:04 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 11:56:12 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 11:56:12 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:56:12 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 11:56:12 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 11:56:12 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 11:56:17 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-20 11:56:17 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 11:56:17 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 11:56:17 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 11:56:17 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 11:56:20 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:56:25 INFO  com.app.Main  - 
+**** Welcome to Signup Portal****
+[main] 2021-08-20 11:56:25 INFO  com.app.Main  - Enter Name-->
+[main] 2021-08-20 11:56:35 INFO  com.app.Main  - Enter Username-->
+[main] 2021-08-20 11:56:43 INFO  com.app.Main  - Enter Password-->
+[main] 2021-08-20 11:56:46 INFO  com.app.Main  - Enter Email-Id-->
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - Account create Successfully!!!!!!!!!!
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 11:57:03 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 11:57:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:03 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 11:57:11 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - Welcome Karthik, What you wanna do today?
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:57:17 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - 
+
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 11:57:23 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:57:32 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:57:35 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:57:37 INFO  com.app.Main  - Enter Product Name to find your Product-->
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:57:42 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:57:48 INFO  com.app.Main  - Enter Product Name to find your Product-->
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:57:51 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:57:54 INFO  com.app.Main  - Enter Product Category to find your Product-->
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 11:57:57 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 11:58:08 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - You have no orders
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:00:16 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:00:22 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 12:00:34 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:00:41 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 12:00:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:00:41 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 12:01:03 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - Welcome Karthik, What you wanna do today?
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:01:06 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - 
+
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:01:17 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:01:20 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:01:24 INFO  com.app.Main  - Product 4 added successfully to cart!!!
+
+[main] 2021-08-20 12:01:24 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:01:24 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:01:24 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:01:27 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:01:31 INFO  com.app.Main  - Product 3 added successfully to cart!!!
+
+[main] 2021-08-20 12:01:31 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:01:31 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:01:31 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:01:35 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:01:37 INFO  com.app.Main  - Product 2 added successfully to cart!!!
+
+[main] 2021-08-20 12:01:37 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:01:37 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:01:37 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:01:42 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - There are 3 product in Cart and details are below --> 
+
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - Cart [productName=Fridge, price=25000.0]
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - Cart [productName=Mi Poco F1, price=20000.0]
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - Cart [productName=Microwave, price=15000.0]
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - 
+Total Price is 60000.0
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 12:01:49 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:01:56 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:02:03 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:02:15 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 12:02:20 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:25 INFO  com.app.Main  - Enter Product Name to find your Product-->
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - Welcome to Product Search(You can search a product by various filters from below menu--->)
+
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-20 12:02:35 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:02:41 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - 
+
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:02:54 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:02:57 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:03:00 INFO  com.app.Main  - Product 4 added successfully to cart!!!
+
+[main] 2021-08-20 12:03:00 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:03:00 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:03:00 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:03:03 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - There are 1 product in Cart and details are below --> 
+
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - Cart [productName=Microwave, price=15000.0]
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - 
+Total Price is 15000.0
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 12:03:06 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - Ordered Placed successfully. You can view the status of order in Main menu. Thanks for Shopping!!!!!
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:03:10 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:04:31 INFO  com.app.Main  - ***Going to main menu***
+[main] 2021-08-20 12:04:31 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 12:04:31 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 12:04:31 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 12:04:31 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:04:33 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:04:33 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 12:04:33 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 12:04:33 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 12:04:35 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 12:04:41 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - Welcome vik29,What you wanna do today?
+
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:04:44 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer by various filters from below menu--->)
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-20 12:04:58 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:05:01 INFO  com.app.Main  - Enter Customer Name to find Customer-->
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - Customer [customerId=3, customerName=Karthik, customerUsername=karthik029, customerEmail=karthik029@gmail.com]
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer by various filters from below menu--->)
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-20 12:05:04 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - *********** Going to previous menu *******************
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:05:14 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 12:05:21 INFO  com.app.Main  - Table 'projectone.customer' doesn't exist Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-20 12:05:21 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 12:05:21 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 12:05:21 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 12:13:21 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 12:14:00 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 12:14:00 INFO  com.app.Main  - Table 'projectone.customer' doesn't exist Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-20 12:14:00 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 12:14:00 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 12:14:00 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - Welcome To FastBuy Online Shopping App!
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - ***************************************
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - Confirm your identity-
+
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 12:14:37 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - Welcome To FastBuy Online Shopping App!
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - ***************************************
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - Confirm your identity-
+
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 12:15:18 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 12:15:20 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:15:27 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 12:15:27 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:15:27 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 12:15:33 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - Welcome Karthik, What you wanna do today?
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:15:37 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:15:41 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - 
+
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:15:44 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:15:48 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:15:51 INFO  com.app.Main  - Product 5 added successfully to cart!!!
+
+[main] 2021-08-20 12:15:51 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:15:51 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:15:51 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:15:59 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:16:01 INFO  com.app.Main  - Product 6 added successfully to cart!!!
+
+[main] 2021-08-20 12:16:01 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:16:01 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:16:01 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:03 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - There are 2 product in Cart and details are below --> 
+
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - Cart [productName=Television, price=30000.0]
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - Cart [productName=Pizza, price=110.0]
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - 
+Total Price is 30110.0
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 12:16:06 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:11 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:20 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - 
+
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:16:23 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:16:29 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:16:33 INFO  com.app.Main  - Product 6 added successfully to cart!!!
+
+[main] 2021-08-20 12:16:33 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:16:33 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:16:33 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:16:37 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:16:41 INFO  com.app.Main  - Product 5 added successfully to cart!!!
+
+[main] 2021-08-20 12:16:41 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:16:41 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:16:41 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:44 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - There are 2 product in Cart and details are below --> 
+
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - Cart [productName=Television, price=30000.0]
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - Cart [productName=Pizza, price=110.0]
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - 
+Total Price is 30110.0
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 12:16:46 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:50 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - Cart is Empty!!
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:16:59 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Product [productId=6, productName=Pizza, productPrice=110.0, productRating=4.0, productCategoryId=2]
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Product [productId=4, productName=Microwave, productPrice=15000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Product [productId=3, productName=Mi Poco F1, productPrice=20000.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Product [productId=2, productName=Fridge, productPrice=25000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - Product [productId=5, productName=Television, productPrice=30000.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - 
+
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:17:03 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:17:05 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 12:17:07 INFO  com.app.Main  - Product 4 added successfully to cart!!!
+
+[main] 2021-08-20 12:17:07 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 12:17:07 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 12:17:07 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:17:09 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - There are 1 product in Cart and details are below --> 
+
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - Cart [productName=Microwave, price=15000.0]
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - 
+Total Price is 15000.0
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 12:17:14 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - Ordered Placed successfully. You can view the status of order in Main menu. Thanks for Shopping!!!!!
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:17:16 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 12:17:30 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:17:33 INFO  com.app.Main  - ***Going to main menu***
+[main] 2021-08-20 12:17:33 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 12:17:33 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 12:17:33 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 12:17:33 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 12:17:35 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:17:35 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 12:17:35 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 12:17:35 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 12:17:37 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 12:17:41 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:17:43 INFO  com.app.Main  - Credentials not found.Try Again!
+[main] 2021-08-20 12:17:43 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 12:17:43 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 12:18:03 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - Welcome vik29,What you wanna do today?
+
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 12:18:06 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 12:18:11 INFO  com.app.Main  - Customers have no orders Yet!!
+[main] 2021-08-20 12:18:11 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 12:18:11 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 12:18:11 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 12:18:16 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 12:18:19 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 12:18:19 INFO  com.app.Main  - Customers have no orders Yet!!
+[main] 2021-08-20 12:18:19 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 12:18:19 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 12:18:19 INFO  com.app.Main  - 2)Go to previous menu

@@ -68,7 +68,7 @@ public class OrderDAOImpl implements OrderDAO{
 		List<Order> orderList = new ArrayList<>();
 
 		try (Connection connection = MySqlConnection.getConnection()) {
-			String sql = "select or_id,pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer on or_cu_id= cu_id where or_status=?";
+			String sql = "select or_id,pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer_details on or_cu_id= cu_id where or_status=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, "ordered");
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -114,7 +114,7 @@ public class OrderDAOImpl implements OrderDAO{
 		List<Order> orderList = new ArrayList<>();
 
 		try (Connection connection = MySqlConnection.getConnection()) {
-			String sql = "select or_id,pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer on or_cu_id= cu_id where cu_id=? and or_status=?";
+			String sql = "select or_id,pro_id,pro_name,pro_price,or_status from orders join product on or_pr_id=pro_id join customer_details on or_cu_id= cu_id where cu_id=? and or_status=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customerId);
 			preparedStatement.setString(2, "shipped");
