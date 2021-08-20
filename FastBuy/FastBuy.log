@@ -770,3 +770,11 @@ Total Price is 25000.0
 [main] 2021-08-20 01:45:24 INFO  com.app.Main  - 5)LogOut
 [main] 2021-08-20 01:45:24 INFO  com.app.Main  - Enter your choice-->
 [main] 2021-08-20 01:45:54 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - Welcome To FastBuy Online Shopping App!
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - ***************************************
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - Confirm your identity-
+
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 11:00:02 INFO  com.app.Main  - Enter your choice between 1-3
