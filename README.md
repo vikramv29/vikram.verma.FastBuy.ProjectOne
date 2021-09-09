@@ -48,4 +48,5 @@ A minimum of 5 JUnit test is written to test some functionality.
 
 
 ----Usage----
+
 Users must register for the Shopping App Application on the registration page(Implemented using Scanner class). Then, they must login on the home page (login page). All of the application's functionality will then be open after logging in.
