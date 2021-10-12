@@ -9,17 +9,17 @@ This Online Shopping is a console-based menu driven application that simulates o
 
 # Technologies Used
 
-Java
+1. Java
 
-MySQL Database
+2. MySQL Database
 
-Maven
+3. Maven
 
-JDBC
+4. JDBC
 
-JUnit
+5. JUnit
 
-Log4j
+6. Log4j
 
 
 
