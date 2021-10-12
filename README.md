@@ -1,24 +1,30 @@
 # FastBuy
 
 
-----Project Description----
+# Project Description
 
 This Online Shopping is a console-based menu driven application that simulates online shopping experience. An employee can add Products. A Customer can place order on the products. The employee delivers the Product to the Customer and keeps updating the tracker to track the orders placed. Employee maintains products in the system. Customer has a order history and can also view products from categories and can add it to cart for checkout.
 
 
 
-----Technologies Used----
+# Technologies Used
 
 Java
+
 MySQL Database
+
 Maven
-JDBC  
+
+JDBC
+
 JUnit
+
 Log4j
 
 
 
-----Features----
+
+# Features
 
 As an user, I can login.
 As a employee, I can add a new product.
@@ -35,7 +41,7 @@ As a employee, he can search customer by various filters like email, id, name, o
 
 
 
-----To-do list----
+# To-do list
 
 Data is stored in a database.
 Data Access is performed through the use of JDBC in a data layer consisting of Data Access Objects.
@@ -47,6 +53,6 @@ A minimum of 5 JUnit test is written to test some functionality.
 
 
 
-----Usage----
+# Usage
 
 Users must register for the Shopping App Application on the registration page(Implemented using Scanner class). Then, they must login on the home page (login page). All of the application's functionality will then be open after logging in..
